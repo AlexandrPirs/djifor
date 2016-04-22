@@ -1,0 +1,80 @@
+.arenda {
+	position: relative;
+	padding-bottom: 30px;
+}
+.arenda .arenda_item {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #f3f2f2;
+	margin-bottom: 30px;
+}
+.arenda .arenda_item .arenda_item_img {
+	position: relative;
+	height: 100%;
+}
+.arenda .arenda_item .arenda_item_img img {
+	max-width: 350px;
+	max-height: 350px;
+	width: 100%;
+	height: 100%;
+}
+.arenda .arenda_item .arenda_item_content {
+	position: relative;
+	height: 100%;
+	padding: 30px;
+}
+.arenda .arenda_item .arenda_item_content .title {
+	position: relative;
+}
+.arenda .arenda_item .arenda_item_content .title span {
+	font-family: "HelveticaNeueCyr-Light";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	color: #999;
+}
+.arenda .arenda_item .arenda_item_content .text {
+	position: relative;
+	margin-top: 30px;
+}
+
+.arenda .arenda_item .arenda_item_content .text p {
+	margin: 0;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: #999;
+}
+.arenda .arenda_item .arenda_item_content .bottom {
+	position: relative;
+	margin-top: 30px;
+}
+.arenda .arenda_item .arenda_item_content .bottom span {
+	float: left;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #22c4c2;
+	margin-top: 15px;
+}
+.arenda .arenda_item .arenda_item_content .bottom .button {
+	float: right;
+	width: 220px;
+	height: 60px;
+	background: #25bebe;
+	border: 1px solid #25bebe;
+	font-family: "HelveticaNeueCyr-Medium";
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+.arenda .arenda_item .arenda_item_content .bottom .button:hover {
+	background-color: #fff;
+	color: #25bebe;
+}

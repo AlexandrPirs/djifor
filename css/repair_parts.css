@@ -1,0 +1,45 @@
+
+.repair_parts {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.repair_parts .container {
+	width: 101%;
+	margin: 0;
+	margin-left: -4px;
+	padding-top: 0;
+}
+
+.repair_parts .repair_parts_item {
+	position: relative;
+	overflow: hidden;
+	padding-left: 4px;
+	padding-right: 0px;
+}
+
+.repair_parts .repair_parts_item a {
+	text-decoration: none;
+	font-family: "HelveticaNeueCyr-Medium";
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	-webkit-transition: all .55s;
+	-o-transition: all .55s;
+	transition: all .55s;
+}
+
+.repair_parts .repair_parts_item a span {
+	position: absolute;
+	bottom: 8%;
+	left: 5%;
+}
+
+.repair_parts .repair_parts_item a:hover {
+	color: #25bebe;
+}
+
+

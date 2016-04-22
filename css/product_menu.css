@@ -1,0 +1,37 @@
+
+.product_menu {
+	position: relative;
+	padding: 60px 0px;
+}
+
+.product_menu .menu {
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+.product_menu .menu li {
+	text-align: center;
+}
+
+.product_menu .menu li a {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #25bebe;
+	text-transform: uppercase;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+}
+
+.product_menu .menu li a:hover {
+	color: #c3c3c3;
+}
+
+.product_menu .menu li a:hover {
+	text-decoration: none;
+}
