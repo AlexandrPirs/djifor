@@ -22,14 +22,17 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" href="libs/owl/assets/owl.carousel.css">
-	
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+
 	<link rel="stylesheet" href="css/breadcrumbs.css">
 	<link rel="stylesheet" href="css/product_title.css">
 	<link rel="stylesheet" href="css/phantom_form.css">
 	<link rel="stylesheet" href="css/acsessuar">
 	<link rel="stylesheet" href="css/product.css">
+	
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/form_basket.css">	
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -54,7 +57,7 @@
 							<li><a href="osmo.html">Osmo</a></li>
 							<li><a href="ronin.html">Ronin</a></li>
 							<li><a href="other.html">Другое</a></li>
-							<li><a href="other.html">Аренда</a></li>
+							<li><a href="arenda.html">Аренда</a></li>
 							<li><a href="accessories.html">Аксессуары</a></li>
 							<li><a href="details.html">Запчасти</a></li>
 							<li><a href="repairs.html">Ремонт</a></li>
@@ -88,7 +91,7 @@
 						</div>
 
 						<div class="basket">
-							<a href="#"><img src="img/basket.png" alt=""></a>
+							<a href="#hidden_basket" class="popup_basket"><img src="img/basket.png" alt=""></a>
 						</div>
 
 					</div>
@@ -432,7 +435,106 @@
 
 
 
-<div class="hidden"></div>
+<div class="hidden">
+	<form action="" class="form_basket_content" id="hidden_basket">
+			<div class="title_basket">
+				<h1>Корзина</h1>
+				<span>Сума</span>
+			</div>
+
+			<div class="item_product_basket">
+				<div class="item_product_img_basket"></div>
+				<p>DJI Phantom 3 Professional</p>
+				<div class="slider_basket">
+					<div class="owl-carousel_basket">
+						<div>1 шт.</div>
+						<div>2 шт.</div>
+						<div>3 шт.</div>
+						<div>4 шт.</div>
+						<div>5 шт.</div>
+						<div>6 шт.</div>
+						<div>7 шт.</div>
+						<div>8 шт.</div>
+						<div>9 шт.</div>
+						<div>10 шт.</div>	
+					</div>
+				</div>
+				<span>$1,399.00</span>
+				<img src="img/close.png" alt="delete_item_product" class="delete_item_product">
+			</div>
+
+			<div class="item_product_basket">
+				<div class="item_product_img_basket"></div>
+				<p>DJI Phantom 3 Professional</p>
+				<div class="slider_basket">
+					<div class="owl-carousel_basket">
+						<div>1 шт.</div>
+						<div>2 шт.</div>
+						<div>3 шт.</div>
+						<div>4 шт.</div>
+						<div>5 шт.</div>
+						<div>6 шт.</div>
+						<div>7 шт.</div>
+						<div>8 шт.</div>
+						<div>9 шт.</div>
+						<div>10 шт.</div>	
+					</div>
+				</div>
+				<span>$1,399.00</span>
+				<img src="img/close.png" alt="delete_item_product" class="delete_item_product">
+			</div>
+
+			<div class="result">
+				<span><small>Итого:</small>$1,399.00</span>
+			</div>
+
+			<div class="title_basket_input">
+				<h1>Корзина</h1>
+			</div>
+
+			<div class="content_basket_input">
+				<input type="text" placeholder="* Имя и Фамилия">
+				<input type="text" placeholder="Эл. почта">
+				<input type="text" placeholder="* Телефон">
+				<input type="text" placeholder="Город">
+				<input type="text" placeholder="Адрес">
+			</div>
+
+
+			<div class="content_basket_radio">
+				<div class="payment_method">
+					<h2 class="title">Способы оплаты:</h2>
+
+					<p><input name="" type="radio" value="">Приват24</p>
+
+					<p><input name="" type="radio" value="">Наличный расчёт</p>
+
+					<p><input name="" type="radio" value="">Наложенный платёж</p>
+				</div>
+
+				<div class="delivery_methods">
+					<h2 class="title">Способы доставки:</h2>
+
+					<p><input name="" type="radio" value="">Доставка Новой Почтой</p>
+
+					<p><input name="" type="radio" value="">Доставка по городу Киев</p>
+
+					<p><input name="" type="radio" value="">Самовывоз</p>
+				</div>
+			</div>
+
+			<div class="content_basket_textarea">
+				<h2 class="title">Способы оплаты:</h2>
+
+				<textarea name="" id="" rows="6"></textarea>
+			</div>
+
+			<div class="content_basket_button">
+				<button class="button">оформить заказ</button>
+			</div>
+
+		</form>
+</div>
 
 <div class="loader">
 	<div class="loader_inner"></div>
@@ -449,7 +551,9 @@
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/owl/owl.carousel.min.js"></script>
+	<script src="js/owl-index.js"></script>
 	
 	<script src="js/common.js"></script>
 	
