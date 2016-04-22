@@ -1,0 +1,6 @@
+git init
+
+git add . - точка ознает все файлы
+
+git add git_setting.txt - загрузка конкретного файла.
+
