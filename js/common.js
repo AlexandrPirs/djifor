@@ -1,6 +1,6 @@
 $(function() {
 
-	
+	//NAVIGATION MENU
 	var isSearch = -1;
 	var isCall = -1;
 
@@ -45,6 +45,9 @@ $('header .header_icons .call a').click(function () {
 
 	//form_basket
 	$(".popup_basket").magnificPopup();
+
+	//form_contacts
+	$(".popup_contacts").magnificPopup();
 
 
 	//delete_item_product

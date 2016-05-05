@@ -62,14 +62,17 @@
 }
 .arenda .arenda_item .arenda_item_content .bottom .button {
 	float: right;
+	padding-top: 18px;
 	width: 220px;
 	height: 60px;
 	background: #25bebe;
+	color: #fff;
 	border: 1px solid #25bebe;
 	font-family: "HelveticaNeueCyr-Medium";
 	font-size: 16px;
+	text-align: center;
 	text-transform: uppercase;
-	color: #fff;
+	text-decoration: none;
 	-webkit-transition: all .35s;
 	-o-transition: all .35s;
 	transition: all .35s;

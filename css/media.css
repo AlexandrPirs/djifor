@@ -3,7 +3,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	header nav ul li {
-		padding-right: 15px;
+		padding-right: 10px;
+	}
+	header nav ul li a {
+		font-size: 12px;
 	}
 
 	.slider .slider_item_content {
@@ -17,8 +20,18 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	
+@media only screen and (max-width : 991px) {
+	header {
+		height: 210px;
+	}
+	header nav ul {
+		display: none;
+	}
+	header .header_icons {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 }
 
 /* Small Devices, Tablets */

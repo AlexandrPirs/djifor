@@ -30,22 +30,26 @@
 	padding-bottom: 60px;
 }
 
-.repair_button button {
+.repair_button .button {
+	display: block;
 	margin: 0 auto;
+	padding-top: 18px;
+	text-align: center;
 	width: 220px;
 	height: 60px;
+	color: #fff;
 	background: #25bebe;
 	border: 1px solid #25bebe;
 	font-family: "HelveticaNeueCyr-Medium";
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #fff;
+	text-decoration: none;
 	-webkit-transition: all .35s;
 	-o-transition: all .35s;
 	transition: all .35s;
 }
 
-.repair_button button:hover {
+.repair_button .button:hover {
 	color: #25bebe;
 	background: #fff;
 }

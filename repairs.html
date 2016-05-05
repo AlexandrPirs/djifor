@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/repairs_html.css">
 	<link rel="stylesheet" href="css/repairs_tabs.css">
 	<link rel="stylesheet" href="css/repairs_content.css">
+	<link rel="stylesheet" href="css/form_contacts.css">
 	
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
@@ -274,7 +275,7 @@
 					<p>Все вопросы по сервисному обслуживанию вы можете задать нашим сервис-менеджерам.</p>
 
 					<div class="repair_button">
-						<button>заказать ремонт</button>
+						<a href="#hidden_contacts" class="button popup_contacts">Арендовать</a>
 					</div>
 
 				</div>
@@ -317,6 +318,31 @@
 	
 	
 	<div class="hidden">
+		<form action="" class="form_contacts" id="hidden_contacts">
+			<h1>Оставить заявку</h1>
+
+			<div class="form_contacts_item">
+				<label for="">
+					<span>Ваше Имя:</span><br>
+					<input type="text">
+				</label>
+			</div>
+
+			<div class="form_contacts_item">
+				<label for="">
+					<span>Ваш телефон:</span><br>
+					<input type="text">
+				</label>
+			</div>
+
+			<div class="form_contacts_button">
+				<button>Отправить</button>
+			</div>
+		</form>
+
+
+
+
 		<form action="" class="form_basket_content" id="hidden_basket">
 			<div class="title_basket">
 				<h1>Корзина</h1>
